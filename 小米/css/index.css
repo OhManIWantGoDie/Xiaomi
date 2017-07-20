@@ -1,0 +1,542 @@
+@import url(reset.css);
+body {
+  width: 100%;
+  font-size: 1rem; }
+  body > a img {
+    width: 100%; }
+
+.new {
+  background: greenyellow;
+  width: 5rem;
+  line-height: 2rem;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 33%;
+  display: block; }
+
+.zeng {
+  background: dodgerblue;
+  width: 5rem;
+  line-height: 2rem;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 33%;
+  display: block; }
+
+.zhe {
+  background: red;
+  width: 5rem;
+  line-height: 2rem;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 33%;
+  display: block; }
+
+li {
+  position: relative; }
+
+header {
+  width: 100%;
+  background: #333333;
+  font-size: 0.7rem; }
+  header > div {
+    width: 1200px;
+    margin: 0 auto;
+    color: #ccc;
+    line-height: 3rem; }
+    header > div > ul:nth-child(1) li {
+      padding: 0.3rem;
+      float: left; }
+    header > div > ul:nth-child(2) {
+      width: 25%;
+      float: right; }
+      header > div > ul:nth-child(2) > ul li {
+        line-height: 58px;
+        padding: 0.3rem;
+        float: left; }
+      header > div > ul:nth-child(2) button {
+        background: #424242;
+        color: #CCCCCC;
+        border: none; }
+
+header:after {
+  clear: both;
+  content: '';
+  display: block; }
+
+.box {
+  width: 1200px;
+  margin: 0 auto; }
+
+.red {
+  border-top: 1px solid red; }
+
+.blue {
+  border-top: 1px solid blue; }
+
+.yellow {
+  border-top: 1px solid yellow; }
+
+.green {
+  border-top: 1px solid green; }
+
+.gold {
+  border-top: 1px solid gold; }
+
+nav {
+  width: 100%; }
+
+#one {
+  padding: 1rem 0; }
+  #one > img {
+    float: left;
+    margin-right: 3rem; }
+  #one .oneDowm {
+    float: left; }
+    #one .oneDowm li {
+      float: left;
+      line-height: 55px;
+      padding-right: 1.3rem; }
+  #one > div {
+    float: right;
+    width: 19%;
+    border: 1px solid #CCCCCC; }
+    #one > div > input {
+      line-height: 50px;
+      float: left;
+      border: none; }
+  #one > div:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+#one:after {
+  clear: both;
+  content: '';
+  display: block; }
+
+#two {
+  position: relative; }
+  #two ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 557px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    z-index: 10; }
+    #two ul li {
+      color: #FFFFFF;
+      padding: 1rem; }
+      #two ul li span {
+        float: right; }
+  #two .swiper-container {
+    position: relative;
+    width: 100%; }
+    #two .swiper-container img {
+      width: 100%; }
+  #two .swiper-pagination-bullets {
+    right: 10px;
+    bottom: 10px;
+    width: 100px;
+    left: auto; }
+  #two .twoUl {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #FFF;
+    font-size: 3rem; }
+
+#two:after {
+  clear: both;
+  display: block;
+  content: ''; }
+
+#three {
+  margin: 10px auto; }
+  #three > div {
+    margin-right: 3.37rem;
+    float: left;
+    width: 23%;
+    height: 100%; }
+    #three > div > img {
+      width: 100%;
+      height: 100%; }
+  #three > .lastDiv {
+    margin: 0; }
+  #three .threeDiv {
+    width: 210px;
+    background: red;
+    background: #CEC9C1; }
+    #three .threeDiv > div {
+      float: left;
+      height: 75px; }
+      #three .threeDiv > div img {
+        height: 100%; }
+
+#three:after {
+  clear: both;
+  content: '';
+  display: block; }
+
+#four {
+  margin-bottom: 2rem; }
+  #four .head {
+    line-height: 3rem; }
+    #four .head > h5 {
+      float: left;
+      font-size: 1.5rem; }
+    #four .head > div {
+      float: right; }
+      #four .head > div span {
+        padding: 0 2rem;
+        line-height: 1.4rem;
+        border: 1px solid #ccc; }
+  #four .head:after {
+    display: block;
+    content: '';
+    clear: both; }
+  #four .fourUl {
+    width: 100%;
+    text-align: center; }
+    #four .fourUl > li {
+      float: left;
+      width: 18%;
+      background: #FAFAFA;
+      padding: 2rem 0;
+      margin-right: 1.87rem;
+      text-align: center; }
+      #four .fourUl > li img {
+        width: 80%; }
+      #four .fourUl > li > div {
+        margin-top: 2rem; }
+      #four .fourUl > li p:nth-child(2) {
+        color: #CCCCCC;
+        font-size: 0.7rem;
+        margin: 1rem 0; }
+      #four .fourUl > li p:nth-child(3) {
+        color: red;
+        margin-top: 1rem; }
+
+#four:after {
+  clear: both;
+  display: block;
+  content: ''; }
+
+#bigBox {
+  width: 100%;
+  background: #F5F5F5;
+  padding: 2rem 0; }
+
+.copyBox > div > div {
+  width: 19%;
+  float: left; }
+  .copyBox > div > div img {
+    width: 100%; }
+.copyBox > div > ul {
+  width: 80%;
+  height: 597px;
+  float: right; }
+  .copyBox > div > ul li {
+    margin: 0 0.5rem 0.5rem 0;
+    float: left;
+    text-align: center;
+    width: 24%;
+    height: 49%;
+    background: #FFF; }
+    .copyBox > div > ul li img {
+      width: 80%; }
+    .copyBox > div > ul li div {
+      margin: 1rem; }
+    .copyBox > div > ul li p:nth-child(2) {
+      color: #CCCCCC;
+      font-size: 0.7rem;
+      margin: 1rem 0; }
+    .copyBox > div > ul li p:nth-child(3) {
+      color: red;
+      margin-top: 1rem; }
+  .copyBox > div > ul .lastLi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    background: none; }
+    .copyBox > div > ul .lastLi img {
+      width: 100%; }
+
+.copyHead {
+  margin: 2rem 0 1rem 0;
+  font-weight: bold; }
+  .copyHead > p {
+    float: left;
+    font-size: 1.3rem; }
+  .copyHead ul {
+    float: right; }
+    .copyHead ul li {
+      float: left;
+      margin: 0 1rem; }
+    .copyHead ul li:nth-child(1) {
+      color: #FF0000;
+      border-bottom: 3px solid #FF0000; }
+
+.copyHead:after {
+  clear: both;
+  display: block;
+  content: ''; }
+
+.copyBox:after {
+  clear: both;
+  content: '';
+  display: block; }
+
+.copyEr {
+  height: 597px; }
+  .copyEr img {
+    display: block;
+    width: 100%;
+    height: 49%;
+    margin-bottom: 0.5rem; }
+
+.copyFour > .copyHead {
+  width: 100%; }
+.copyFour > .copyHead > p {
+  float: left; }
+.copyFour .flexSb {
+  float: right; }
+  .copyFour .flexSb span {
+    padding: 0 2rem;
+    line-height: 1.4rem;
+    border: 1px solid #ccc; }
+
+.copyErBox > div > div {
+  width: 19%;
+  float: left; }
+  .copyErBox > div > div img {
+    width: 100%; }
+.copyErBox > div > ul {
+  width: 80%;
+  height: 597px;
+  float: right; }
+  .copyErBox > div > ul li {
+    margin: 0 0.73rem 0.5rem 0;
+    float: left;
+    text-align: center;
+    width: 24%;
+    height: 372px;
+    background: #FFF; }
+    .copyErBox > div > ul li img {
+      width: 80%; }
+    .copyErBox > div > ul li div {
+      margin: 1rem; }
+    .copyErBox > div > ul li p:nth-child(3) {
+      color: #CCCCCC;
+      margin: 2rem 0; }
+    .copyErBox > div > ul li p:nth-child(2) {
+      color: red;
+      margin-top: 1rem; }
+  .copyErBox > div > ul .lastLi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    background: none; }
+    .copyErBox > div > ul .lastLi img {
+      width: 100%; }
+
+footer > div > div {
+  padding: 3rem 0; }
+
+footer > div > div:after {
+  clear: both;
+  display: block;
+  content: ''; }
+
+.footUl {
+  border-bottom: 1px solid #000000; }
+  .footUl li {
+    float: left;
+    margin: 2rem 0;
+    border-right: 1px solid #000000;
+    text-align: center;
+    padding: 0 4.4rem; }
+  .footUl .lastLi {
+    border: none; }
+
+.footUl:after {
+  clear: both;
+  display: block;
+  content: ''; }
+
+.footBigUl {
+  float: left;
+  width: 70%;
+  border-right: 1px solid #000000; }
+  .footBigUl > li {
+    float: left;
+    width: 16.6%; }
+    .footBigUl > li li {
+      margin-top: 1rem;
+      font-size: 0.7rem; }
+    .footBigUl > li .footBigP {
+      font-size: 1rem;
+      margin-bottom: 2rem; }
+
+.footBigUl:after {
+  clear: both;
+  content: '';
+  display: block; }
+
+.footBigDiv {
+  width: 29%;
+  float: right;
+  text-align: center; }
+  .footBigDiv p {
+    font-size: 0.7rem;
+    color: #CCCCCC;
+    margin: 0.5rem 0; }
+  .footBigDiv .bigP {
+    font-size: 2rem;
+    color: #FF0000; }
+  .footBigDiv .bigPBut {
+    margin-top: 1.5rem;
+    border: 1px solid #FF0000;
+    color: #FF0000;
+    width: 10rem;
+    line-height: 2rem;
+    margin: 0 auto; }
+
+.footBigLast {
+  float: left;
+  margin-top: 6rem;
+  width: 100%; }
+  .footBigLast > img {
+    float: left; }
+  .footBigLast .lastBig {
+    margin-left: 1rem;
+    float: left;
+    font-size: 0.7rem; }
+    .footBigLast .lastBig > ul {
+      margin-top: 0.3rem; }
+      .footBigLast .lastBig > ul li {
+        float: left;
+        margin-right: 0.5rem; }
+    .footBigLast .lastBig > ul:after {
+      clear: both;
+      display: block;
+      content: ''; }
+    .footBigLast .lastBig > p {
+      margin-top: 0.3rem;
+      color: #CCCCCC; }
+
+.LastRight {
+  float: right;
+  line-height: 55px; }
+  .LastRight img {
+    width: 5rem; }
+
+.LastRight:after, .footBigLast:after, .lastBig:after {
+  clear: both;
+  content: '';
+  display: block; }
+
+.copySanBox ul > li {
+  float: left;
+  width: 24%;
+  margin-right: 1rem; }
+  .copySanBox ul > li img {
+    width: 100%; }
+  .copySanBox ul > li > div {
+    background: #fff;
+    padding: 2rem; }
+    .copySanBox ul > li > div p:nth-child(2) {
+      margin-top: 2rem;
+      color: #CCCCCC; }
+    .copySanBox ul > li > div p:nth-child(3) {
+      margin-top: 1rem; }
+      .copySanBox ul > li > div p:nth-child(3) span {
+        color: #FF0000;
+        margin-left: 2rem; }
+
+.copySanBox:after {
+  clear: both;
+  content: '';
+  display: block; }
+
+.copySix > ul {
+  width: 100%; }
+  .copySix > ul li {
+    background: #FFFFFF;
+    float: left;
+    width: 24%;
+    margin-right: 1rem;
+    text-align: center; }
+    .copySix > ul li p {
+      margin: 0.5rem 0; }
+    .copySix > ul li > p:nth-child(1) {
+      margin: 2rem 0;
+      color: #FF0000; }
+    .copySix > ul li > p:first-child(2) {
+      font-size: 1.5rem; }
+    .copySix > ul li > p:nth-child(3) {
+      color: #CCCCCC;
+      font-size: 0.7rem; }
+    .copySix > ul li > img {
+      margin: 2rem 0; }
+
+.copySix:after {
+  clear: both;
+  content: '';
+  display: block; }
+
+.copySeven > div {
+  margin: 2rem 0 1rem 0; }
+.copySeven > ul > li > div:nth-child(1) {
+  position: relative; }
+  .copySeven > ul > li > div:nth-child(1) img:nth-child(1) {
+    width: 100%; }
+  .copySeven > ul > li > div:nth-child(1) img:nth-child(2) {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem; }
+.copySeven > ul > li {
+  float: left;
+  width: 24%;
+  margin-right: 0.3rem; }
+.copySeven > ul > li > div {
+  background: #FFFFFF;
+  text-align: center;
+  padding: 1rem; }
+
+.copySeven:after, .copySeven > div:after {
+  clear: both;
+  display: block;
+  content: ''; }
+
+#one {
+  position: relative; }
+  #one a {
+    color: #000000; }
+  #one a:hover {
+    color: #FF4400; }
+
+#two li:hover {
+  color: #fff;
+  background: #FF4400; }
+
+#bigBox li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 10px 5px #000000; }
+
+/*# sourceMappingURL=index.css.map */
